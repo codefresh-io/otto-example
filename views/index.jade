@@ -3,3 +3,14 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  form(name="register", action="/register", method="post")
+      input(type="text", name="device_id")
+      input(type="text", name="user_id")
+      input(type="submit", name="submit", text="register")
+
+  ul
+    each moble in mobles
+      li=  moble.user_id + ':' + moble.device_id
+
+
+
