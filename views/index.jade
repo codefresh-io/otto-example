@@ -4,8 +4,8 @@ block content
   h1= title
   p Welcome to #{title}
   form(name="register", action="/register", method="post")
-      device Id : input(type="text", name="device_id", id="did")
-      user Id : input(type="text", name="user_id", id="uid")
+      input(type="text", name="device_id", id="did" text="device Id : ")
+      input(type="text", name="user_id", id="uid", text="user Id : ")
       input(type="submit", name="submit", text="register")
 
   ul
