@@ -4,13 +4,11 @@ block content
   h1= title
   p Welcome to #{title}
   form(name="register", action="/register", method="post")
-  div.input
-            span.label "device Id : "
-            input(type="text", name="device_id", id="did")
-  div.input
-            span.label "user Id :"
-            input(type="text", name="user_id", id="uid")
-      input(type="submit", name="submit", text="register")
+    span.label deviceID
+    input(type="text", name="device_id", id="did")
+    span.label UserId
+    input(type="text", name="user_id", id="uid")
+    input(type="submit", name="submit", text="register")
 
   ul
     each moble in mobles
