@@ -15,7 +15,8 @@ exports.index = function(req, res){
 };
 
 exports.register = function ( req, res ){
-  new Moble({
+    console.log(req.body);
+    new Moble({
     device_id    : req.body.device_id,
     user_id   : req.body.user_id,
     updated_at : Date.now()

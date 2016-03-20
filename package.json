@@ -1,15 +1,25 @@
 {
-  "name": "application-name",
+  "name": "moble",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "3.4.4",
-    "connect"  : "1.8.7",
-    "ejs"      : "0.8.3",
-    "mongoose" : "3.2.0",
-    "jade" : "*" 
+    "express" : "*" ,
+    "connect" : "*" ,
+    "ejs" : "*" ,
+    "mongoose" : "4.3" ,
+    "jade" : "*",
+    "kerberos" : "*",
+    "favicon" : "*",
+    "serve-favicon" : "*",
+    "logger" : "*",
+    "json" : "*",
+    "body-parser" : "*",
+    "errorhandler" : "*",
+    "method-override" : "*",
+    "morgan" : "*",
+    "express-session" : "*"
   }
 }
