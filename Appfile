@@ -1,0 +1,7 @@
+application {
+  name = "moble"
+  
+  dependency {
+    source = "./mongodb"
+  }
+}
