@@ -1,6 +1,5 @@
-moble
+ottofresh
 =====
 
-mobile device management repository
-for noble folks
-built on node.js
+a node.js app for storing key-value pairs in mongodb backend.
+built to showcase hashicorp's [otto](https://www.ottoproject.io/) development workflow

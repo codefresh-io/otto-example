@@ -3,20 +3,20 @@
  * GET home page.
  */
 var mongoose = require( 'mongoose' );
-var Moble     = mongoose.model( 'Moble' );
+var Fresh     = mongoose.model( 'Fresh' );
 
 exports.index = function(req, res){
-  Moble.find( function ( err, mobles, count ){
+  Fresh.find( function ( err, freshs, count ){
     res.render( 'index', {
-        title : 'Moble',
-        mobles : mobles
+        title : 'Fresh',
+        freshs : fresh
     });
     });
 };
 
 exports.register = function ( req, res ){
     console.log(req.body);
-    new Moble({
+    new Fresh({
     device_id    : req.body.device_id,
     user_id   : req.body.user_id,
     updated_at : Date.now()

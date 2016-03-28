@@ -1,6 +1,6 @@
 application {
-  name = "moble"
-  
+  name = "ottofresh"
+
   dependency {
     source = "./mongodb"
   }
